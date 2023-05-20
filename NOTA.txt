@@ -1,0 +1,5 @@
+Tuve un problema con una foreign key a la hora de querer modificar una tabla.
+Por falta de tiempo, no hice de nuevo la bbdd. Para que la función de registro
+de un nuevo usuario hay que ejecutar esta consulta en mysql previamente.
+
+SET GLOBAL foreign_key_checks = 0;
